@@ -9,7 +9,7 @@ echo "🔹 Waiting for local-path-provisioner pod to be ready..."
 kubectl wait --namespace local-path-storage \
   --for=condition=Ready pod \
   --selector=app=local-path-provisioner \
-  --timeout=120s
+  --timeout=180s
 
 echo "🔹 Setting local-path as default StorageClass..."
 kubectl patch storageclass local-path \

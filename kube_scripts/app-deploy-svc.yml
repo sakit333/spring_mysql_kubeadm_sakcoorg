@@ -23,7 +23,7 @@ spec:
             - name: SPRING_APPLICATION_NAME
               value: Spring_sak
             - name: SPRING_DATASOURCE_URL
-              value: jdbc:mysql://mysql:3306/myapplication?createDatabaseIfNotExist=true
+              value: jdbc:mysql://mysql-service:3306/myapplication?createDatabaseIfNotExist=true
             - name: SPRING_DATASOURCE_USERNAME
               value: root
             - name: SPRING_DATASOURCE_PASSWORD
